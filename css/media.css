@@ -1,0 +1,114 @@
+﻿@charset "utf-8";
+/*!
+ * 米维建站  一建轻松建站
+ * 详尽信息请看官网：http://www.miwinfo.com/
+ *
+ * Copyright 2014 米维建站
+ *
+ * 请尊重原创，保留头部版权
+ * 仅供学习参考使用，不可用于任何商业用途
+ *
+ * 客服QQ 974837117
+ */
+@media only screen and (max-width : 1400px) {
+
+}
+@media only screen and (max-width : 1200px) {
+
+}
+@media only screen and (max-width : 1024px) {
+.content{ max-width: 850px; }
+.header .inmuen ul li{ padding: 0 20px; }
+.showpro .info .jj{height: 90px; margin-bottom: 15px;}
+.showpro .info{ padding: 20px; }
+.showpro .info .pic{ width: 560px; position: static; margin: 0 auto; }
+}
+@media only screen and (max-width : 910px) {
+
+}
+@media only screen and (max-width : 850px) {
+.header .inmuen{ display: none; float: none; clear: both; padding: 10px 0; }
+.nav_handle{ display: block; }
+.header .inmuen ul li{ float: none; clear: none; text-align: center; line-height: 40px; }
+.header .search{ position: static; }
+.header .search .xf{ width: 100%; box-sizing: border-box; top: 92px; }
+.header .search .xf .text{ width: 75%; box-sizing: border-box; }
+.header .search .xf .sub{ width: 25%; }
+.banner .pagination{ bottom: 0; }
+.banner .pagination .swiper-pagination-switch{ width: 20px; margin: 0 5px; }
+.inpro{ padding: 5px; }
+.inpro ul li{ width: 100%; padding: 5px; }
+.inpro ul li .pic{ height: 400px; }
+.inpro ul li .pic img{ width: auto; height: 400px; margin-left: -333px; }
+.inpro ul li .tit{ top: 20px; font-size: 25px; height: 30px; line-height: 30px; }
+.inpro ul li .jj{ font-size: 17px; top: 50px; }
+.inpro ul li .more{ top: 90px; }
+.footer .fnav{ float: none; width: 100%; border-bottom: 1px solid #ccc; }
+.footer .fnav .tit{ height: 36px; line-height: 36px; font-size: 12px; margin: 0; }
+.footer .fnav .tit span{ display: block; float: right; line-height: 36px; font-size: 14px; }
+.footer .fnav .nr{ padding: 5px 0 5px 20px; display: none; }
+.footer .fnav .nr a{ color: #666; }
+.page-down{ right: 10px; bottom: 10px; }
+.nynav .lmtit{ float: none; }
+.nynav .lmtit i{ display: block; float: right; line-height: 30px; }
+.nynav .nr{ float: none; padding: 20px; display: none; }
+.nynav .nr ul li{ height: 40px; line-height: 40px; border-bottom: 1px solid #dfdfdf; float: none; font-size: 13px; }
+.findxl .text{ width: 70%; }
+.findxl .sub{ width: 28%; }
+.nypro{ padding: 20px 0; }
+.nypro .lmtit{ font-size: 25px; line-height: 30px; }
+.nypro .slmtit{ font-size: 14px; }
+.nypro .nr .left{ padding: 0; width: 48%; margin: 0 1%; }
+.nypro .nr .left .pic{ position: static; width: 90%; height: auto; margin: 30px auto 0; text-align: center; }
+.nypro .nr .right{ padding: 0; width: 48%; margin: 0 1%; }
+.nypro .nr .right .pic{ position: static; width: 100%; height: auto; text-align: center; }
+.nypro .nr .tit{ padding-top: 10px; font-size: 16px; margin-bottom: 2px; }
+.nypro .nr .jj{ font-size: 12px; }
+.showpro .info .jj{ height: auto; }
+.nynews ul li{ padding: 30px 30px 30px 320px;}
+.nynews ul li .jj{ height: 90px; }
+.nynews ul li .date{ position: static; top: initial; margin-top: 0; padding: 0; border: 0;}
+.nynews ul li .date span{ display: inline-block; padding-right: 10px;}
+.nynews ul li .date em{ display: inline-block; margin-bottom: 0;}
+.nynews ul li .date .more{ display: none; }
+.shownews .tit{ font-size: 20px; margin-bottom: 10px; }
+.shownews .pre{ float:none; padding:0;}
+.shownews .fanh{ float:none; width:100%;}
+.shownews .pic{ padding: 0 50px; }
+.shownews .pic .prev, .shownews .pic .next{ width: 40px; height: 40px; line-height: 40px; margin-top: -20px; }
+.xgnews .cntit{ font-size: 20px; }
+.xgnews .nr ul li{ width: 48%; }
+}
+@media only screen and (max-width : 640px) {
+.showpro .info{ padding: 10px 10px 20px; min-height: inherit;}
+.showpro .info .pic{ width: 280px; }
+.tb-s310, .tb-s310 img{ max-width: 220px; max-height: 220px; }
+.tb-s310, .tb-s310 a{ width: 220px; height: 220px; }
+.picScroll-left{ width: 48px; margin-right: 10px; }
+.picScroll-left .bd ul li{ width: 48px; height: 48px; overflow: hidden; box-sizing: border-box;}
+.picScroll-left .bd ul li img{ margin: 0; }
+.picScroll-left .bd ul li.tb-selected img{ width: 48px; height: 48px; margin: 0;}
+.jqPreload0{ display: none; }
+.picScroll-left{ padding: 20px 0; }
+.picScroll-left .hd .prev, .picScroll-left .hd .next{ height: 20px; line-height: 20px; }
+.nynews ul li{ padding:20px;}
+.nynews ul li .pic{ position: static; margin: 0 auto; }
+.nynews ul li .tit{ font-size: 16px; height: 40px; line-height: 40px; }
+.nynews ul li .date span{ font-size: 25px; }
+.shownews .sxp .lan{ width: 100%;float: none; height: 32px; line-height: 32px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 10px; font-size: 12px;}
+.shownews .sxp .ran{ width: 100%;float: none; height: 32px; line-height: 32px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px;}
+.shownews .sxp .ran .ico{ float: left; margin-left: 0; margin-right: 10px; }
+}
+@media only screen and (max-width : 480px) {
+
+}
+@media only screen and (max-width : 450px) {
+
+}
+@media only screen and (max-width : 400px) {
+
+}
+@media only screen and (max-width : 360px) {
+
+}
+
