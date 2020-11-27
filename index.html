@@ -9,11 +9,11 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/media.css" rel="stylesheet" type="text/css">
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
     <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
-    <script type="text/javascript" src="js/idangerous.swiper.min.js"></script>
+	
     <script type="text/javascript" src="js/jquery.SuperSlide.2.1.2.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript">
@@ -25,6 +25,31 @@
             $(this).find("img").eq(0).removeClass("scale-1x")
         })})
     </script>
+	
+	<style>
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+
+    }
+    </style>
     <!--[if IE]>
     <script src="js/html5.js"></script>
     < ![endif]-->
@@ -35,37 +60,17 @@
 <!--<div class="nav_handle"><em class="middle_holder"></em><b class="middle"><i class="l_1"></i><i class="l_2"></i></b></div>-->
 
 <div class="webmain">
-    
-    <div class="intopadv">
-        <div class="content">
-            <广告>
-        </div>
-    </div>
 
     <div class="header">
         <div class="content">
             <a href="#"><div class="logo"><img src="images/logo.jpg"></div></a>
             <div class="nav_handle"><em class="middle_holder"></em><b class="middle"><i class="l_1"></i><i class="l_2"></i></b></div>
-            <div class="search">
-                <i class="fa fa-search"></i>
-                <div class="xf">
-                    <form>
-                        <input type="text" name="findpro" class="text" placeholder="请输入您要查询的内容">
-                        <input type="submit" value="搜 索" class="sub">
-                        <div class="clean"></div>
-                    </form>
-                </div>
-            </div>
             <div class="inmuen">
                 <ul>
                     <a href="#"><li>首页</li></a>
-                    <a href="#"><li>关于我们</li></a>
-                    <a href="#"><li>产品中心</li></a>
-                    <a href="#"><li>风格展示</li></a>
-                    <a href="#"><li>售后服务</li></a>
-                    <a href="#"><li>新闻中心</li></a>
-                    <a href="#"><li>联系我们</li></a>
-                    <a href="#"><li>En</li></a>
+                    <a href="#"><li>我们</li></a>
+                    <a href="#"><li>相册</li></a>
+                    <a href="#"><li>哈哈</li></a>
                     <div class="clean"></div>
                 </ul>
             </div>
@@ -75,12 +80,32 @@
 
     <div class="banner">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><a href="#"><img src="images/banner.jpg"></a></div>
-            <div class="swiper-slide"><a href="#"><img src="images/banner.jpg"></a></div>
-            <div class="swiper-slide"><a href="#"><img src="images/banner.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/banner1.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/banner2.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/banner1.jpg"></a></div>
         </div>
         <div class="pagination"></div>
     </div>
+	
+	<script src="js/swiper-bundle.min.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+    </script>
 
     <div class="inpro">
         <ul>
@@ -96,54 +121,7 @@
 
     <div class="footer">
         <div class="content">
-            <div class="fnav">
-                <div class="tit">关于我们<span>+</span></div>
-                <div class="nr">
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                </div>
-            </div>
-            <div class="fnav">
-                <div class="tit">关于我们<span>+</span></div>
-                <div class="nr">
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                </div>
-            </div>
-            <div class="fnav">
-                <div class="tit">关于我们<span>+</span></div>
-                <div class="nr">
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                </div>
-            </div>
-            <div class="fnav">
-                <div class="tit">关于我们<span>+</span></div>
-                <div class="nr">
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                </div>
-            </div>
-            <div class="fnav">
-                <div class="tit">关于我们<span>+</span></div>
-                <div class="nr">
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                    <a href="#">公司简介</a>
-                </div>
-            </div>
-            <div class="clean"></div>
-            <div class="fwz">更多选购方式：前往 Apple Store 零售店，致电 400-666-8800 或查找在你附近的授权经销商。</div>
-            <div class="banq">Copyright © 2018 Apple Inc. 保留所有权利。</div>
+            <div class="banq">Copyright © 2020 Zeng & Tan. </div>
         </div>
     </div>
 
